@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internship Job Board</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="logo">
+          <img src="https://media.licdn.com/dms/image/v2/D560BAQEQ3r6sHdZWzA/company-logo_200_200/company-logo_200_200/0/1719256696147/code_forgeniamt_logo?e=2147483647&v=beta&t=POjq4sAQpTruYhfPM_SI2O718VAZz2LtYTQgX1Lxkko" alt="CodeForge Logo" />
+        </div>
+        <nav class="nav-links">
+          <a href="#" class="active">Internships</a>
+          <a href="#">Browse Jobs</a>
+          <a href="#">Companies</a>
+          <a href="#">Resources</a>
+          <a href="#">About Us</a>
+        </nav>
+        <div class="auth-buttons">
+          <a href="#" class="btn-signin">Sign In</a>
+          <a href="#" class="btn-post">Post a Job</a>
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>
+            Find <span>Internships & Jobs.</span><br />Kickstart Your Career.
+          </h1>
+          <p>
+            Explore verified internships and jobs across roles and locations.<br />Learn,
+            grow and build your future.
+          </p>
+
+          <div class="search-box">
+            <span style="padding-left: 10px; color: #888">&#128269;</span>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search by role or company"
+            />
+            <div class="search-divider"></div>
+            <span style="padding-left: 10px; color: #888">&#128205;</span>
+            <select class="location-select">
+              <option>All Locations</option>
+              <option>Bangalore</option>
+              <option>Hyderabad</option>
+              <option>Remote</option>
+            </select>
+            <button class="btn-search">Search</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://thumbs.dreamstime.com/b/smiling-woman-employee-working-ergonomic-workstation-vector-flat-illustration-contemporary-office-furnituring-computer-189608349.jpg"
+            alt="Hero Illustration Dashboard"
+          />
+        </div>
+      </section>
+
+      <!-- Popular Internships -->
+      <section class="internships-section">
+        <div class="section-header">
+          <h2>Popular Internships</h2>
+          <a href="https://tse4.mm.bing.net/th/id/OIP.vmq2cucD0UCAlpr00Q9NGAHaEK?r=0&pid=Api&P=0&h=180" class="view-all">View all internships &rarr;</a>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Card 1 -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Software Engineering Intern</h3>
+            <p class="location">&#128205; Bangalore &bull; Remote</p>
+            <span class="stipend">&#8377;1,20,000 / month</span>
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" />
+              <span class="time-posted">3 days ago</span>
+            </div>
+            <h3>Data Science Intern</h3>
+            <p class="location">&#128205; Hyderabad &bull; Remote</p>
+            <span class="stipend">&#8377;90,000 / month</span>
+            <a href="https://www.microsoft.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg" alt="Amazon" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>SDE Intern</h3>
+            <p class="location">&#128205; Hyderabad &bull; Hybrid</p>
+            <span class="stipend">&#8377;85,000 / month</span>
+            <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" />
+              <span class="time-posted">4 days ago</span>
+            </div>
+            <h3>UI/UX Design Intern</h3>
+            <p class="location">&#128205; Bangalore &bull; Remote</p>
+            <span class="stipend">&#8377;60,000 / month</span>
+            <a href="https://www.figma.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <!-- Rectified Internships below -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://epn3sadorhq.exactdn.com/wp-content/uploads/Trinamix.png?strip=all&quality=90&webp=90" alt="Trinamix" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Systems Engineer</h3>
+            <p class="location">&#128205; Hyderabad &bull; Hybrid</p>
+            <span class="stipend">&#8377;85,000 / month</span>
+            <a href="https://www.trinamix.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img src="https://www.prepitus.com/assets/Website-logo-BJ9jJB0W.svg" alt="Prepitus" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Marketing Intern</h3>
+            <p class="location">&#128205; Hyderabad &bull; Hybrid</p>
+            <span class="stipend">&#8377;40,000 / month</span>
+            <a href="https://www.prepitus.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg" alt="Accenture" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Associate Engineer Intern</h3>
+            <p class="location">&#128205; Hyderabad &bull; Hybrid</p>
+            <span class="stipend">&#8377;85,000 / month</span>
+            <a href="https://www.accenture.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img src="https://mma.prnewswire.com/media/379251/Deloitte_Logo.jpg?p=facebook" alt="Deloitte" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>SDE Intern</h3>
+            <p class="location">&#128205; Hyderabad &bull; Hybrid</p>
+            <span class="stipend">&#8377;85,000 / month</span>
+            <a href="https://www.deloitte.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="internships-section">
+        <div class="section-header">
+          <h2>Popular Jobs</h2>
+          <a href="#" class="view-all">View all jobs &rarr;</a>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Card 1 -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Software Engineer</h3>
+            <p class="location">&#128205; Bangalore &bull; Hybrid</p>
+            <span class="stipend">&#8377;25LPA</span>
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" />
+              <span class="time-posted">3 days ago</span>
+            </div>
+            <h3>Data Science Engineer</h3>
+            <p class="location">&#128205; Hyderabad &bull; On-Site</p>
+            <span class="stipend">&#8377;35LPA</span>
+            <a href="https://www.microsoft.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg" alt="Amazon" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Software Development Engineer</h3>
+            <p class="location">&#128205; Hyderabad &bull; Hybrid</p>
+            <span class="stipend">&#8377;25LPA</span>
+            <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" />
+              <span class="time-posted">4 days ago</span>
+            </div>
+            <h3>UI/UX Designer</h3>
+            <p class="location">&#128205; Bangalore &bull; On-Site</p>
+            <span class="stipend">&#8377;11LPA</span>
+            <a href="https://www.figma.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img src="https://epn3sadorhq.exactdn.com/wp-content/uploads/Trinamix.png?strip=all&quality=90&webp=90" alt="Trinamix" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Systems Engineer</h3>
+            <p class="location">&#128205; Hyderabad &bull; On-Site</p>
+            <span class="stipend">&#8377;5LPA</span>
+            <a href="https://www.trinamix.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img src="https://www.prepitus.com/assets/Website-logo-BJ9jJB0W.svg" alt="Prepitus" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Marketing Lead</h3>
+            <p class="location">&#128205; Hyderabad &bull; Remote</p>
+            <span class="stipend">&#8377;8LPA</span>
+            <a href="https://www.prepitus.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg" alt="Accenture" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Associate Engineer</h3>
+            <p class="location">&#128205; Hyderabad &bull; On-site</p>
+            <span class="stipend">&#8377;9LPA</span>
+            <a href="https://www.accenture.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img src="https://mma.prnewswire.com/media/379251/Deloitte_Logo.jpg?p=facebook" alt="Deloitte" />
+              <span class="time-posted">2 days ago</span>
+            </div>
+            <h3>Software Development Engineer</h3>
+            <p class="location">&#128205; Hyderabad &bull; On-site</p>
+            <span class="stipend">&#8377;12LPA</span>
+            <a href="https://www.deloitte.com" target="_blank" rel="noopener noreferrer" class="view-details">View Details &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trusted Companies -->
+      <section class="trusted-section">
+        <h3>Trusted by 100+ Leading Companies</h3>
+        <div class="company-logos">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg" alt="Microsoft" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Adobe_Systems_logo_and_wordmark.svg" alt="Adobe" />
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="copyright">
+          &copy; 2026 CodeForge Jobs. All rights reserved.
+        </div>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="social-icons">
+          <span><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" /></span>
+          <span><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter" /></span>
+          <span><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" /></span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
