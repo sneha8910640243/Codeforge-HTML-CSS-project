@@ -1,0 +1,275 @@
+/* Base Styles & Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Layout Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header / Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.logo img {
+  height: 40px;
+  object-fit: contain;
+}
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+.nav-links a {
+  font-weight: 500;
+  color: #4a4a4a;
+}
+.nav-links a.active {
+  color: #000;
+  border-bottom: 2px solid #008a45;
+  padding-bottom: 4px;
+}
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn-signin {
+  font-weight: 600;
+}
+.btn-post {
+  background-color: #008a45;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.hero-content {
+  flex: 1;
+  max-width: 550px;
+}
+.hero-content h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+.hero-content h1 span {
+  color: #008a45;
+}
+.hero-content p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 12px 15px;
+  outline: none;
+  font-size: 1rem;
+}
+.search-divider {
+  width: 1px;
+  height: 30px;
+  background: #e0e0e0;
+  margin: 0 10px;
+}
+.location-select {
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: #4a4a4a;
+  font-size: 1rem;
+  background: transparent;
+}
+.btn-search {
+  background-color: #008a45;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Popular Internships Section */
+.internships-section {
+  padding: 40px 0;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.section-header h2 {
+  font-size: 1.5rem;
+}
+.view-all {
+  color: #008a45;
+  font-weight: 500;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Internship Card */
+.card {
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+}
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+.card-top img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.time-posted {
+  font-size: 0.8rem;
+  color: #888;
+}
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+.location {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.stipend {
+  display: inline-block;
+  background-color: #e6f4ea;
+  color: #008a45;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.view-details {
+  display: block;
+  color: #008a45;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Trusted Companies */
+.trusted-section {
+  text-align: center;
+  padding: 60px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.trusted-section h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.company-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.company-logos img {
+  height: 45px;
+  max-width: 150px;
+  opacity: 0.85;
+  object-fit: contain;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.social-icons span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  transition: opacity 0.2s ease;
+}
